@@ -1,0 +1,8 @@
+nome = str(input("Digite uma frase: ")).strip()
+nomeajs = nome.upper()
+cont = nomeajs.count('A')
+position = nomeajs.find('A')
+posfinal = nomeajs.rfind('A')
+print (f"A letra A aparece {cont} vezes")
+print (f"A primeira letra A aparece na posição {position}")
+print (f"A última letra A aparece na posição {posfinal}")
